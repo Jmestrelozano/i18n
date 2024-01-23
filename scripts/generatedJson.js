@@ -29,7 +29,7 @@ const translationsArray = [
     language: "en",
     name: "Example",
     description: "JSON file generated from a React script for English",
-    welcome: "React + Vite + i18N NEXT Test#1",
+    welcome: "React + Vite + i18N NEXT Test#2 223",
     buttonNext: "next",
   },
   {
