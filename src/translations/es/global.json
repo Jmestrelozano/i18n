@@ -1,0 +1,6 @@
+{
+  "name": "Ejemplo",
+  "description": "Archivo JSON generado desde un script en React para español",
+  "welcome": "React + Vite + i18N",
+  "buttonNext": "siguiente"
+}

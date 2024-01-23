@@ -1,0 +1,6 @@
+{
+  "name": "Example",
+  "description": "JSON file generated from a React script for English",
+  "welcome": "React + Vite + i18N",
+  "buttonNext": "next"
+}
