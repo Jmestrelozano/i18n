@@ -15,7 +15,6 @@ on:
     types:
       - deployment
   workflow_run:
-    workflows: ["Build and Deploy Test Automatization"]  # Mismo nombre del flujo de trabajo actual
     types:
       - completed
 
