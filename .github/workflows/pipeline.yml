@@ -4,6 +4,7 @@
 name: Build and Deploy Test Automatization
 
 on:
+  workflow_dispatch:
   push:
     branches: ["main"] # Cambiar "main" por el nombre de la rama principal de tu repositorio (por ejemplo, "master" o "main")
   pull_request:
