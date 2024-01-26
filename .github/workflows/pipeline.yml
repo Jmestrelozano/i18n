@@ -17,6 +17,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Print Node.js version
+        run: node --version
+
+      - name: Print npm version
+        run: npm --version
+
+      - name: List files in current directory
+        run: ls -l
+
+      - name: Print package.json
+        run: cat package.json
+
       - name: Setup node
         uses: actions/setup-node@v4
         with:
@@ -25,6 +37,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: List files after installation
+        run: ls -l
 
   eject-translation:
     runs-on: ubuntu-latest
