@@ -11,7 +11,7 @@ on:
     branches: ["main"]
 
 jobs:
-  install:
+  run_workflow_vercel:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
