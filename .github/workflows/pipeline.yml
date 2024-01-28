@@ -22,21 +22,16 @@ jobs:
           node-version: 18
           cache: "npm"
       - run: npm ci
-  eject-translation_and_build:
+  eject-translation:
     needs: [install]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Setup Node and Restore npm cache
-        uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: "npm"
-      - name: Run generate file translations and build
-        run: npm run generate-json && npm run build
+      - name: Run generate file translations
+        run: npm run generate-json
   deploy:
-    needs: [install, eject-translation_and_build]
+    needs: [install, eject-translation]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
