@@ -33,6 +33,9 @@ jobs:
     needs:
       - "install"
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
       - name: Run generate file translations
         run: npm run generate-json
         
@@ -43,6 +46,9 @@ jobs:
       - "install"
       - "eject-translation"
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
       - name: Build
         run: npm run build
   
