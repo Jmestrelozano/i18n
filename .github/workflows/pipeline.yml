@@ -22,7 +22,7 @@ jobs:
           node-version: 18
           cache: "npm"
       - run: npm ci
-  eject-translation:
+  eject-translation_and_build:
     runs-on: ubuntu-latest
     needs:
       - "install"
@@ -30,9 +30,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Run generate file translations
-        run: npm run generate-json
-  build:
-    needs: [install, eject-translation]
+        run: npm run generate-json && npm run build
+  deploy:
+    needs: [install, eject-translation_and_build]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
