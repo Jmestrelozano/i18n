@@ -18,14 +18,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node
+      - name: Setup Node and Install dependencies
         uses: actions/setup-node@v4
         with:
           node-version: 18
           cache: "npm"
-
-      - name: Install dependencies
-        run: npm i
+      - run: npm ci
 
 
   eject-translation:
