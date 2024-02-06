@@ -2,7 +2,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import globalEN from "./translations/en/global.json";
 import globalES from "./translations/es/global.json";
-import globalGR from "./translations/gr/global.json";
+
 
 const resources = {
   en: {
@@ -13,11 +13,6 @@ const resources = {
   es: {
     translation: {
       global: globalES,
-    },
-  },
-  gr: {
-    translation: {
-      global: globalGR,
     },
   },
 };
