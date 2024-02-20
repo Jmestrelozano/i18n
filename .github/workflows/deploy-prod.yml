@@ -20,10 +20,10 @@ jobs:
               run: npm install --global vercel
 
             - name: Pull Vercel Environment Information
-              run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+              run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN_I18N }}
 
             - name: Build Project Artifacts
-              run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+              run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN_I18N }}
 
             - name: Deploy Project Artifacts
-              run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+              run: vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN_I18N }}
