@@ -1,0 +1,1110 @@
+{
+  "linkHolaFly": "https://esim.holafly.com/fr/",
+  "login": {
+    "title1": "C'est un plaisir de vous revoir!",
+    "title2": "Veuillez saisir le même e-mail que celui que vous avez utilisé lors de l'achat",
+    "label": "Veuillez saisir l'adresse e-mail que vous avez utilisée lors de l'achat",
+    "btnLogin": "Continuer",
+    "btnApple": "Apple",
+    "btnGoogle": "Google",
+    "btnNeedHelp": "J'ai besoin d'aide",
+    "linkPolitics": "https://esim.holafly.com/fr/politique-de-confidentialite/",
+    "linkTerms": "https://esim.holafly.com/fr/termes-et-conditions/",
+    "termsAndPolitics": "En continuant, vous acceptez nos <p1>Conditions générales</p1> ainsi que la <p2>Politique de confidentialité</p2>.",
+    "checkRemember": "Mémoriser mes informations",
+    "withContinue": "ou continuer avec",
+    "errors": {
+      "codeIncorrect": "L'adresse e-mail ou le code de vérification n'est pas valide.",
+      "validFormatEmail": "Veuillez vérifier le format de l'e-mail (il doit contenir @ et « . »)",
+      "internalError": "Nous avons rencontré une erreur, veuillez réessayer.",
+      "moreAttemps": "Vous avez atteint le nombre maximal de tentatives. Veuillez réessayer dans 60 minutes.",
+      "google": "Le compte Google ID n'est pas reconnu pour la connexion. Veuillez saisir la même adresse e-mail que celle utilisée lors de l'achat.",
+      "apple": "Le compte Apple ID n'est pas reconnu pour la connexion. Veuillez saisir la même adresse e-mail que celle utilisée lors de l'achat."
+    },
+    "verficationCode": {
+      "title": "Veuillez saisir le code de vérification",
+      "description": "Nous avons envoyé un code à votre adresse e-mail <p>{{email}}</p>",
+      "span": "(utilisez l'adresse associée à votre achat).",
+      "reminderText": "N'oubliez pas de vérifier votre dossier Courriers indésirables.",
+      "messageNoCode": "Vous n'avez pas reçu le code ?",
+      "btnReSend": "Renvoyer",
+      "textTerms": "Conditions générales ",
+      "textPolitics": "Politique de confidentialité.",
+      "textCodVerification": "code de vérification"
+    },
+    "helpCenter": {
+      "sectionInstructions": {
+        "title": "Regardez les vidéos",
+        "subTitle": "Sélectionnez l'appareil sur lequel vous allez effectuer la procédure",
+        "tabsGlobal": {
+          "first": "iPhone",
+          "second": "Android"
+        },
+        "titleFirstCard": "Installez vote carte eSIM",
+        "titleSecondCard": "Activez votre carte eSIM",
+        "alertCard": {
+          "fisrtAlert": "Assurez-vous de disposer d'une connexion Internet afin de l'installer avant votre départ.",
+          "secondAlert": "Activez-la uniquement lorsque vous êtes arrivé(e) à destination. Sinon, les données disponibles commenceront à être utilisées."
+        },
+        "tabsCard": {
+          "first": "Manuellement",
+          "second": "Code QR"
+        },
+        "tabInfoIos": {
+          "tabManually": {
+            "list": {
+              "titleList": "Il vous suffira de copier-coller les codes que vous avez reçus dans l'e-mail lié à votre achat",
+              "firstPoint": "Installez-la avant votre voyage",
+              "secondPoint": "Vous devez disposer d'une connexion Internet",
+              "thirdPoint": "Utilisez l'adresse SM-DP+ et le code d'activation que vous avez reçus par e-mail",
+              "fourthPoint": "Suivez ces étapes:"
+            },
+            "IDVideo": "1W3lEcPDq1QGH41kV4TZB8nAunKZZa3Oi",
+            "activateManually": {
+              "list": {
+                "titleList": "Vérifiez votre connexion:",
+                "firstPoint": "Une méthode consiste à vérifier la barre supérieure de votre téléphone : l'icône de signal doit posséder au moins une barre",
+                "secondPoint": "Sinon, vous pouvez vous rendre dans «Réglages», puis «Données cellulaires». Sélectionnez «Holafly» et vérifiez que le bouton bascule «Itinérance de données» est activé"
+              },
+              "IDVideo": "1W6u8_Va5Z5qDfn79TOIbuDX_4GoxWgX0"
+            }
+          },
+          "tabCodeQr": {
+            "list": {
+              "titleList": "Utilisez cette option si vous avez le code QR sur un autre appareil ; vous pouvez alors le scanner",
+              "firstPoint": "Vous devez disposer d'une connexion Internet",
+              "secondPoint": "Installez-la avant votre voyage",
+              "thirdPoint": "N'oubliez pas que vous devez avoir le code QR sur un autre appareil pour pouvoir le scanner.",
+              "fourthPoint": "Suivez ces étapes:"
+            },
+            "IDVideo": "1wE9lkBgUb31EB74rIQxKpskTt8l__nYH",
+            "activateCodeQr": {
+              "list": {
+                "titleList": "Vérifiez votre connexion:",
+                "firstPoint": "Une méthode consiste à vérifier la barre supérieure de votre téléphone : l'icône de signal doit posséder au moins une barre",
+                "secondPoint": "Sinon, vous pouvez vous rendre dans «Réglages», puis «Données cellulaires». Sélectionnez «Holafly» et vérifiez que le bouton bascule «Itinérance de données» est activé"
+              },
+              "IDVideo": "1W6u8_Va5Z5qDfn79TOIbuDX_4GoxWgX0"
+            }
+          }
+        },
+        "tabInfoAndroid": {
+          "tabInfoSamsung": {
+            "tabManually": {
+              "list": {
+                "titleList": "Il vous suffira de copier-coller le code que vous avez reçu par e-maill",
+                "firstPoint": "Vous devez disposer d'une connexion Internet",
+                "secondPoint": "Installez-la avant votre voyage",
+                "thirdPoint": "Utilisez le code que vous avez reçu dans l'e-mail lié à votre achat",
+                "fourthPoint": "Suivez ces étapes:"
+              },
+              "IDVideo": "10ubfqB23lmlw6F0uuTu756D15U6uIxFi",
+              "activateManually": {
+                "list": {
+                  "titleList": "Vérifiez votre connexion:",
+                  "firstPoint": "Une méthode consiste à vérifier la barre supérieure de votre téléphone : l'icône de signal doit posséder au moins une barre",
+                  "secondPoint": "Vous pouvez également vous rendre dans Réglages > Connexions > Réseaux mobiles et vérifier que l'option Itinérance de données est activée"
+                },
+                "IDVideo": "1fncdQxKNuhXfuF4LahjM8MlHlkDp2qHn"
+              }
+            },
+            "tabCodeQr": {
+              "list": {
+                "titleList": "N'oubliez pas que vous devez avoir le code QR sur un autre appareil pour pouvoir le scanner",
+                "firstPoint": "Vous devez disposer d'une connexion Internet",
+                "secondPoint": "Installez-la avant votre voyage",
+                "thirdPoint": "Vous devez avoir le code QR sur un autre appareil pour pouvoir le scanner",
+                "fourthPoint": "Suivez ces étapes:"
+              },
+              "IDVideo": "1DhLk-bqyjZ39mjtknsQn_aiuLrPUVbAl",
+              "activateCodeQr": {
+                "list": {
+                  "titleList": "Vérifiez votre connexion:",
+                  "firstPoint": "Une méthode consiste à vérifier la barre supérieure de votre téléphone : l'icône de signal doit posséder au moins une barre",
+                  "secondPoint": "Vous pouvez également vous rendre dans Réglages > Connexions > Réseaux mobiles et vérifier que l'option Itinérance de données est activée"
+                },
+                "IDVideo": "1fncdQxKNuhXfuF4LahjM8MlHlkDp2qHn"
+              }
+            }
+          },
+          "tabInfoGooglePixel": {
+            "tabManually": {
+              "list": {
+                "titleList": "Il vous suffira de copier-coller le code que vous avez reçu dans l'e-mail lié à votre achat",
+                "firstPoint": "Vous devez disposer d'une connexion Internet",
+                "secondPoint": "Installez-la avant votre voyage",
+                "thirdPoint": "Utilisez le code que vous avez reçu dans l'e-mail lié à votre achat",
+                "fourthPoint": "Suivez ces étapes:"
+              },
+              "IDVideo": "1TdHKlN_34A6hkI3_lvb1U8dIVdIABocX",
+              "activateManually": {
+                "list": {
+                  "titleList": "Vérifiez votre connexion:",
+                  "firstPoint": "Une méthode consiste à vérifier la barre supérieure de votre téléphone : l'icône de signal doit posséder au moins une barre",
+                  "secondPoint": "Vous pouvez également vous rendre dans Réglages > Réseaux et Internet > SIM et sélectionner votre carte eSIM Holafly afin de vérifier que l'option Itinérance est activée"
+                },
+                "IDVideo": "1C_jeLVkyC7DGNzy6qjQCxpRb8TmZTtNj"
+              }
+            },
+            "tabCodeQr": {
+              "list": {
+                "titleList": "N'oubliez pas que vous devez avoir le code QR sur un autre appareil pour pouvoir le scanner",
+                "firstPoint": "Vous devez disposer d'une connexion Internet",
+                "secondPoint": "Installez-la avant votre voyage",
+                "thirdPoint": "Vous devez avoir le code QR sur un autre appareil pour pouvoir le scanner",
+                "fourthPoint": "Suivez ces étapes:"
+              },
+              "IDVideo": "1eXjGN8Xba-HFamFeoiFBqi8MUAv1YIor",
+              "activateCodeQr": {
+                "list": {
+                  "titleList": "Vérifiez votre connexion:",
+                  "firstPoint": "Une méthode consiste à vérifier la barre supérieure de votre téléphone : l'icône de signal doit posséder au moins une barre",
+                  "secondPoint": "Vous pouvez également vous rendre dans Réglages > Réseaux et Internet > SIM et sélectionner votre carte eSIM Holafly afin de vérifier que l'option Itinérance est activée"
+                },
+                "IDVideo": "1C_jeLVkyC7DGNzy6qjQCxpRb8TmZTtNj"
+              }
+            }
+          }
+        },
+        "button": "J'ai besoin de plus d'informations",
+        "urlInstructions": "https://esim.holafly.com/fr/installez-activez-holafly-esim-iphone/"
+      },
+      "sectionDownloadGuide": {
+        "title": "Téléchargez le guide d'instructions",
+        "description": "Sauvegardez-le sur votre téléphone au cas où vous n'auriez pas accès à Internet.",
+        "buttonText": "Téléchargez le guide",
+        "urlApplePdf": "https://cdn-esimholafly2.pressidium.com/wp-content/uploads/pdf/Comment_installer_et_activer_votre_carte_eSIM_Holafly_sur_un_iPhone.pdf",
+        "urlSamsungPdf": "https://cdn-esimholafly2.pressidium.com/wp-content/uploads/pdf/Comment_installer_et_activer_votre_carte_eSIM_Holafly_sur_un_Samsung_Galaxy%E2%80%8E.pdf",
+        "urlGooglePixelPdf": "https://cdn-esimholafly2.pressidium.com/wp-content/uploads/pdf/Comment_installer_et_activer_votre_carte_eSIM_Holafly_sur_un_Google_Pixel..pdf"
+      }
+    },
+    "frequentDoubts": {
+      "title": "Centre d'aide",
+      "description": "Vous y trouverez des informations utiles pour répondre à vos questions",
+      "titleFrequentDoubts": "FAQ (Foire aux questions)",
+      "descriptionFrequentDoubts": "Cette liste devrait vous fournir les réponses dont vous avez besoin",
+      "question_one": "Vous rencontrez des problèmes pour vous connecter ?",
+      "response_one": "Si vous rencontrez des problèmes pour vous connecter, veuillez contacter notre support technique via notre canal WhatsApp disponible 24h/24, 7j/7 pour vous porter assistance en espagnol, anglais, italien, portugais, allemand, japonais et chinois (traditionnel).",
+      "question_two": "Que puis-je faire dans le menu Client ?",
+      "response_two": "Vous pourrez vérifier l'état de vos eSIM et recharger un nouveau forfait.",
+      "question_three": "Vous rencontrez des problèmes pour vous connecter à l’aide de votre Apple ID ?",
+      "response_three": {
+        "paragraph_1": "Si vous ne parvenez pas à vous connecter à notre application avec votre Apple ID, voici quelques causes possibles :",
+        "paragraph_2": "1) Votre adresse e-mail est peut-être cachée dans votre Apple ID.",
+        "paragraph_3": "Solution potentielle :",
+        "paragraph_4": "A) Dans les réglages de votre téléphone, cliquez sur votre nom (en haut de la liste des réglages), cliquez sur « iCloud », puis sur « Masquer mon adresse-email ».",
+        "paragraph_5": "B) Tout en bas de la liste qui apparaît, cliquez sur « Adresses inactives », puis sélectionnez l’adresse associée.",
+        "paragraph_6": "C) Cliquez sur « Réactiver l’adresse », puis sur « Réactiver ».",
+        "paragraph_7": "2) L'adresse e-mail associée à votre Apple ID n’a pas été enregistrée lors du traitement de votre commande."
+      },
+      "question_four": "Quelle adresse e-mail dois-je utiliser pour me connecter au menu Client?",
+      "response_four": "Veuillez saisir la même adresse e-mail que celle utilisée lors de l'achat",
+      "question_five": "Où puis-je acheter une eSIM pour accéder au menu Client?",
+      "response_five": "Vous pouvez l'acheter sur notre site Web <a>holafly.com</a>",
+      "question_six": "Compatibilité",
+      "response_six": {
+        "paragraph": "De nombreux smartphones sont compatibles avec les cartes eSIM. Une liste de tous les modèles de smartphones compatibles eSIM par fabricant, ainsi que le nombre de cartes eSIM acceptées et leur méthode d’installation, est disponible à l’adresse suivante: <a>https://esim.holafly.com/fr/guides/esim-smartphones-compatibles/</a>",
+        "url": "https://esim.holafly.com/fr/guides/esim-smartphones-compatibles/"
+      },
+      "question_seven": "sur le plan d'appel",
+      "response_seven": {
+        "paragraph_1": "Vous recevrez un numéro autrichien (+43) pour passer et recevoir des appels en Europe*.",
+        "paragraph_2": "*Certains pays sont exclus. Veuillez consulter nos spécifications techniques. Il est important de noter que lorsque vous communiquez avec des personnes en dehors de la zone de votre numéro assigné, cela pourrait être considéré comme un appel international, et des charges pourraient s'appliquer en fonction de leur prestataire de services."
+      },
+      "question_eight": "Recevez votre eSIM en quelques minutes via e-mail !",
+      "response_eight": "Dès votre achat effectué, vous recevrez les instructions pour installer et activer votre eSIM pour voyager à l'international. Vous pourrez profiter d'internet illimité lors de votre prochaine aventure, ainsi que de 60 minutes pour recevoir des appels et 60 minutes pour en passer !",
+      "question_nine": "Comment fonctionnent les appels en/au destination avec la eSIM Holafly ?",
+      "response_nine": "La eSIM pour l'Europe vous permet d'utiliser des données mobiles et de passer des appels. Elle inclut un numéro de téléphone autrichien (+43) pour passer jusqu'à 60 minutes d'appels, et recevoir jusqu'à 60 minutes d'appels. De plus, vous pouvez toujours passer des appels et envoyer des messages au moyen d'applications comme WhatsApp avec vos données.",
+      "question_ten": "Puis-je passer des appels à l'international avec la eSIM ?",
+      "response_ten": "Vous pourrez recevoir des appels du monde entier, mais uniquement passer des appels vers les pays disposant d'une couverture. Assurez-vous de consulter la fiche technique.",
+      "question_eleven": "Comment puis-je recevoir des appels en/aux l'Europe en provenance de l'étranger avec la eSIM Holafly ?",
+      "response_eleven": {
+        "paragraph_1": "Vous pouvez recevoir des appels depuis n'importe quel pays. Cependant, il est important de noter que lorsque vous communiquez avec des personnes en dehors de la zone de votre numéro assigné (+43 Autriche), cela pourrait être considéré comme un appel international, et des charges pourraient s'appliquer en fonction du prestataire de services de cette personne.",
+        "paragraph_2": "vec la eSIM Holafly, vous pouvez uniquement appeler les pays suivants : République tchèque, Allemagne, Autriche, Belgique, Bulgarie, Croatie, Chypre, Danemark, Slovaquie, Slovénie, Espagne, Estonie, Europe, Finlande, France, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Pologne, Portugal, Roumanie, Suède. N'oubliez pas de composer l'indicatif du pays concerné avant chaque appel."
+      },
+      "question_twelve": "Comment puis-je appeler à l'intérieur de l'Europe et à l'étranger en utilisant la eSIM Holafly ?",
+      "response_twelve": "vec la eSIM Holafly, vous pouvez uniquement appeler les pays suivants : République tchèque, Allemagne, Autriche, Belgique, Bulgarie, Croatie, Chypre, Danemark, Slovaquie, Slovénie, Espagne, Estonie, Europe, Finlande, France, Grèce, Hongrie, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Pologne, Portugal, Roumanie, Suède. N'oubliez pas de composer l'indicatif du pays concerné avant chaque appel.",
+      "question_thriteen": "Puis-je envoyer et recevoir des SMS avec ma eSIM Holafly ?",
+      "response_thriteen": "Malheureusement, la eSIM de Holafly pour la/le/l’ l'Europe n'inclut pas la possibilité d'utiliser des messages texte.",
+      "question_fourteen": "Comment installer la eSIM sur mon appareil ?",
+      "response_fourteen": {
+        "paragraph_1": "Une fois votre achat effectué, nous vous enverrons un e-mail avec des instructions précises expliquant comment installer votre eSIM de deux façons différentes : en scannant un code QR ou en copiant et collant les codes d'installation manuelle.",
+        "paragraph_2": "Pour l'installer avec la première méthode, le code QR doit être imprimé ou affiché sur un autre appareil. Vous pouvez également suivre les instructions d'installation manuelle pour votre eSIM Holafly.",
+        "paragraph_3": "Si vous possédez un appareil iOS, vous devez accéder à Réglages → Réseau cellulaire → Ajouter eSIM sur votre appareil et ajouter le code QR ou coller les codes d'installation manuelle envoyés à votre adresse e-mail. Ensuite, vous devrez suivre les instructions à l'écran pour sélectionner votre nouvelle eSIM pour les données mobiles et les appels.",
+        "paragraph_4": "Si vous possédez un appareil Android, suivez les instructions que nous vous enverrons par e-mail pour installer votre eSIM Holafly.",
+        "paragraph_5": "N'oubliez pas que votre forfait de données Holafly s'activera uniquement lorsque vous arriverez à votre destination. Une fois sur place, assurez-vous de sélectionner votre eSIM Holafly comme carte SIM par défaut pour les appels, puis activez l'itinérance des données et le forfait d'appel Holafly.",
+        "paragraph_6": "Chez Holafly, nous souhaitons faciliter au maximum la procédure d'installation de votre eSIM. C'est pourquoi tous nos produits eSIM sont accompagnés d'instructions complètes pour une installation facile.",
+        "paragraph_7": "Si vous avez des questions ou avez besoin d'assistance, n'hésitez pas à contacter notre équipe du service client. Nous sommes à votre disposition 24h/24 et 7j/7."
+      },
+      "question_fifteen": "Dois-je activer l'itinérance des données et les appels vocaux sur mon appareil ?",
+      "response_fifteen": {
+        "paragraph_1": "Oui, pour obtenir la meilleure couverture avec votre eSIM Holafly, vous devez activer l'itinérance des données dans les paramètres de votre appareil. Ne vous inquiétez pas, cela ne générera pas de frais supplémentaires de la part de votre opérateur si vous avez configuré avec succès votre eSIM Holafly.",
+        "paragraph_2": "De plus, assurez-vous que votre ligne Holafly est sélectionnée comme votre ligne vocale par défaut afin que vous puissiez passer des appels sans problèmes. Vous pouvez configurer cela dans les paramètres vocaux ou d'appel de votre téléphone."
+      },
+      "question_sixteen": "Puis-je utiliser ma carte SIM (physique) et la carte eSIM Holafly en même temps ?",
+      "response_sixteen": {
+        "paragraph_1": "Bien sûr ! Vous pouvez garder votre carte SIM physique en même temps que votre eSIM Holafly sur votre appareil. Assurez-vous simplement de choisir votre eSIM comme SIM par défaut pour les appels vocaux et les données mobiles dans les paramètres de votre appareil.",
+        "paragraph_2": "Veuillez noter que si vous laissez votre carte SIM physique active, vous pourriez faire face à des frais d'itinérance supplémentaires de la part de votre opérateur."
+      },
+      "question_seventeen": "De combien de minutes est-ce que je dispose pour passer et recevoir des appels ?",
+      "response_seventeen": {
+        "paragraph_1": "Avec votre eSIM Holafly pour le/la/l’ l'Europe vous disposer de 60 minutes pour passer des appels et de 60 minutes pour en recevoir. N'oubliez pas que ces deux chiffres sont indépendants ; en d'autres termes, vous disposez d'un total de 120 minutes à utiliser pendant votre voyage.",
+        "paragraph_2": "Si vous avez besoin de plus de minutes, vous pouvez en acheter via notre site web ou en contactant notre équipe du service client."
+      },
+      "titleActiveEsim": "Installez et activez votre carte eSIM",
+      "description_video": "Regardez les vidéos",
+      "text_video": "Apprenez comment installer et activer votre carte eSIM dans l'application.",
+      "titleGuidePdf": "Téléchargez le guide au format PDF",
+      "linkPdf": "https://cdn-esimholafly2.pressidium.com/wp-content/themes/Holafly_v2-child/recursos/How_to_install_and_activate_your_Holafly_eSIM_on_Samsung_Galaxy.pdf",
+      "notifyDowloandPdf": "Le guide d'installation a été téléchargé",
+      "text_pdf": "Sauvegardez-le sur votre téléphone au cas où vous n'auriez pas accès à Internet.",
+      "titleContact": "Nous contacter",
+      "textSupport": "Nous sommes là pour vous ! Nous offrons une assistance 24h/24 et 7j/7",
+      "textBtnSupport": "Venez en discuter"
+    }
+  },
+  "splash": {
+    "firstLoaderText": "Gérez vos eSIM en <p>un seul endroit</p>",
+    "secondLoaderText": "Découvrez comment <p>installer et activer</p> vos eSIM",
+    "threeLoaderText": "<p>rechargez un nouveau forfait </p>lorsque vous en avez besoin"
+  },
+  "activation": {
+    "activationInfo": "Fixez la date 3 jours avant votre arrivée à destination",
+    "back": "Retour à mes eSIMs",
+    "chooseAnActivationDate": "Choose activation date",
+    "datePicker": {
+      "formatDate": "DD/MM/YYY",
+      "label": "Date d'activation",
+      "placeholder": "DD/MM/YYYY"
+    }
+  },
+  "common": {
+    "states": {
+      "ACTIVATION_DATE": {
+        "card_info": "Elle sera activée le",
+        "card_status": "Sera activée le",
+        "card_status_details": "Active"
+      },
+      "ACTIVATION_INS": {
+        "card_info": "Insérez la {{type}} lorsque vous arrivez à votre destination pour commencer à l'utiliser",
+        "card_status": "Active dès l'insertion de la carte",
+        "card_status_details": "Active"
+      },
+      "ACTIVATION_QR": {
+        "card_info": "Vous devez scanner le code QR et activer la carte",
+        "card_status": "En Attente de",
+        "card_status_details": "En attente"
+      },
+      "ACTIVATION_REQ": {
+        "card_info": "Une date d'activation est requise pour commencer à utiliser cette {{type}}",
+        "card_status": "Date d'activation requise",
+        "card_status_details": "Active"
+      },
+      "ACTIVE": {
+        "card_info": "Active",
+        "card_status": "Active",
+        "card_info2": "Active jusqu'au {{date}}",
+        "card_status2": "Active jusqu'au {{date}}",
+        "card_status_details": "Active"
+      },
+      "FINISHED": {
+        "card_info": "",
+        "card_status": "Expirée",
+        "card_status_details": "Expiré"
+      },
+      "KYC_REQ": {
+        "card_info": "KYC est un processus d'identification requis pour certains fournisseurs.",
+        "card_status": "KYC requis",
+        "card_status_details": "Active"
+      }
+    }
+  },
+  "details": {
+    "alertProviderCHM": {
+      "title": "Il y a un problème avec la date d’activation et d’expiration:",
+      "desc": "Actuellement nous rencontrons des problèmes avec la date d’activation et d’expiration de votre plan de données mobiles et de votre recharge. Nous faisons de notre mieux pour résoudre ce problème et nous nous excusons pour tout inconvenient causé.",
+      "textButton": "Cacher / masque le message"
+    },
+    "alert": {
+      "pending": {
+        "title": "Suivez les 2 étapes suivantes pour vous connecter:",
+        "options": {
+          "option_one": {
+            "first": "Installez votre eSIM",
+            "second": "plusieurs heures avant de voyager ou une fois arrivé(e) à destination"
+          },
+          "option_two": {
+            "first": "Activez votre forfait",
+            "second": "une fois arrivé(e) à destination"
+          }
+        }
+      },
+      "danger": {
+        "title": "Il ne vous reste plus beaucoup de données. Rechargez votre compte avant qu’elles ne soient épuisées pour continuer à utiliser cette eSIM"
+      }
+    },
+    "active": {
+      "descEsimActivation": "Lorsque vous activez votre eSIM, votre utilisation quotidienne et de données commence. N'oubliez pas de l'activer lorsque vous arrivez à destination",
+      "activationGuideButtonIOS": "Guide d'activation iOS",
+      "activationGuideButtonAndroid": "Guides d'activation Android",
+      "remainingDaysTopup": "{{days}} jours et données illimitées",
+      "titleProgressBandWidth": "il vous reste",
+      "remainingDataBandWidth": "{{gb}} Go",
+      "totalDataBandWidth": "sur {{gb}} Go",
+      "titleConsumedBandWidth": "vous avez consommé",
+      "consumedBandWidth": "{{gb}} Go"
+    },
+    "pending": {
+      "avice": "Activez votre eSIM uniquement lorsque vous êtes arrivé(e) à destination"
+    },
+    "expired": {
+      "title": "Cette eSIM a maintenant expiré et ne peut pas être utilisée",
+      "body": "Si vous souhaitez continuer à utiliser Internet, vous devez acheter une nouvelle eSIM. Souvenez-vous que vous pouvez recharger votre carte avant sa date d’expiration",
+      "cta": "Achetez une eSIM",
+      "titleHelp": "Besoin d'aide ?",
+      "descHelp": "Si vous pensez qu'il y a une erreur et que vous avez besoin d'aide, contactez-nous via notre chat en direct ou visitez notre centre d'aide",
+      "btnHelpLiveChat": "Chat en direct",
+      "btnHelpCenter": "Visitez notre centre d'aide"
+    },
+    "modalCheckYourPackage": {
+      "titleModal": "Vérifier votre forfait",
+      "bodyTitle": "Vous allez recharger votre forfait",
+      "cta": "Confirmez votre achat",
+      "total": "Total"
+    },
+    "manualInstallationModule": {
+      "title": "Installation manuelle",
+      "body": "Copiez-collez les codes suivants dans votre téléphone pour réussir l’installation.",
+      "smdpCode": "Code de l’adresse SM-DP+ ",
+      "activationCode": "Code d’activation",
+      "ctaIOS": "Installer manuellement sur iOS",
+      "ctaAndroid": "Installer manuellement sur Android",
+      "copy": "Copié!"
+    },
+    "titleUnlimitedData": "Il vous reste des données illimitées pour",
+    "numberDays": "{{days}} jours",
+    "packageIncluded": "sur {{days}} inclus dans votre forfait",
+    "titleInstallEsim": "1. Installer l'eSIM",
+    "titleActiveEsim": "2. Activer la carte eSIM",
+    "buy": "Achetez",
+    "currentBundle": "Forfait actuel",
+    "titleNextPackageUnlimited": "Forfait suivant",
+    "descNextPackageUnlimited": "Illimité / 7 jours",
+    "infoPackage": "Ce forfait sera activé automatiquement lorsque le forfait actuel arrivera à expiration ou que les données auront toutes été utilisées",
+    "titleHiddenTopUp": "Nous regrettons cet inconvénient.",
+    "descriptionHiddenTopUp": "Nous te notifions que le produit \"ajouter un plan de données\" sera desactivé. Nous espérons pouvoir habiliter ce produit pour toi dès que possible. Veux-tu avoir des nouvelles données?",
+    "btnHiddenTopUp": "Ajoute une nouvelle eSIM ici",
+    "back": "Retour à mes eSIMs",
+    "buyDataPackages": "Acheter des plans de données",
+    "buyPackage": "Acheter un plan",
+    "dataRemaining": "Données restantes",
+    "expiresOn": "EXPIRE LE {{date}}",
+    "installOnYourDevice": "Installer {{type}} sur votre appareil",
+    "installWithQR": "Installer l'eSIM avec le code QR",
+    "myPackages": "Mes Plans",
+    "quantityDataRemaining": "{{data}} restantes",
+    "topUp": "Recharger",
+    "addMoreData": "Ajouter plus de données",
+    "addData": "ajouter un plan de données",
+    "validForXDays": "Valable pour {{days}} jours",
+    "warningMessage": "Les eSIMs ne peuvent être installées qu'une seule fois.<br/> <strong>NE PAS SUPPRIMER</strong> après l'installation.",
+    "unlimited": "Vous avez des données illimitées pour",
+    "isUnlimited": "illimitées",
+    "remainingDays": " les {{days}} restants",
+    "totalDays": "Du {{days}} que votre plan a inclus",
+    "manualInstallation": "Installer manuellement"
+  },
+  "footer": {
+    "blog": "Blog",
+    "blogLink": "https://esim.holafly.com/blog/",
+    "contactUs": "Nous contacter",
+    "contactUsLink": "https://esim.holafly.com/fr/contactez/",
+    "esimCompatibleDevices": "Appareils compatibles avec la eSIM",
+    "esimCompatibleDevicesLink": "https://esim.holafly.com/how-to/esim-phones/",
+    "facebookLink": "https://www.facebook.com/HolaFlying/",
+    "faqs": "FAQs",
+    "faqsLink": "https://esim.holafly.com/fr/faq/",
+    "help": "Aide",
+    "holafly": "Holafly",
+    "holaflyTeam": "L'équipe Holafly",
+    "holaflyTeamLink": "https://esim.holafly.com/fr/a-propos-de-nous/",
+    "howToSetupYourEsim": "Comment configurer votre eSIM",
+    "howToSetupYourEsimLink": "https://esim.holafly.com/fr/installez-activez-holafly-esim-iphone/",
+    "instagramLink": "https://www.instagram.com/holafly_esim/",
+    "legal": "Mentions légales",
+    "linkedinLink": "https://es.linkedin.com/company/holafly",
+    "madeWithLove": "Fait avec <heart/> par des personnes qui aiment voyager. Holafly 2023 ®",
+    "privacyPolicy": "Politique de confidentialité",
+    "privacyPolicyLink": "https://esim.holafly.com/faq/privacy-policy/",
+    "refundPolicy": "Politique de remboursement",
+    "refundPolicyLink": "https://esim.holafly.com/fr/politique-remboursement/",
+    "reviews": "Avis",
+    "reviewsLink": "https://esim.holafly.com/holafly-reviews/",
+    "termsAndConditions": "Termes et conditions",
+    "termsAndConditionsLink": "https://esim.holafly.com/fr/termes-et-conditions/",
+    "twitterLink": "https://twitter.com/holafly_com"
+  },
+  "header": {
+    "store": "Vers la boutique",
+    "myEsims": "Mes cartes eSIM",
+    "guides": "Guides",
+    "help": "Aide",
+    "downloadApp": "Téléchargez l’application",
+    "account": "Mon compte",
+    "logout": "Se déconnecter",
+    "addData": "Ajouter des données",
+    "instructions": "Instructions",
+    "instructionIos": "Instructions pour iOS",
+    "instructionAandroid": "Instructions pour Android",
+    "title": "Client",
+    "esimShopLink": "https://esim.holafly.com/fr",
+    "languages": {
+      "en": "Anglais",
+      "es": "Espanol",
+      "fr": "Français",
+      "de": "Allemand",
+      "it": "Italien",
+      "pt": "Portugais",
+      "ja": "japonais"
+    },
+    "suggestedLanguage": "Langue suggérée",
+    "langTitle": "Langues",
+    "downloadAppUrlIos": "https://apps.apple.com/co/app/holafly-international-esim/id1629600786?l=fr",
+    "downloadAppUrlAndroid": "https://play.google.com/store/apps/details?id=com.holafly.holafly&hl=fr_FR"
+  },
+  "instructions": {
+    "activateInYourDestination": "Activez dans votre destination",
+    "activateWhenYouArrive": "Activez l'eSIM à votre arrivée",
+    "addESIMMobileDataPlan": {
+      "1": "Allez dans les réglages > Données cellulaires > Ajouter un forfait cellulaire",
+      "title": "Ajoutez un plan de données mobiles eSIM"
+    },
+    "addTo": {
+      "1": "Sélectionnez votre forfait \"principal\" pour continuer à utiliser votre numéro pour iMessage, FaceTime et Apple ID, puis appuyez sur \"Continuer\".",
+      "title": "Ajouter à iMessage, FaceTime et Apple ID"
+    },
+    "back": "Retour à mes eSIMs",
+    "forAndroidDevices": "Pour les appareils Android",
+    "forIOSDevices": "For les appareils IOS",
+    "forSomeESIMs": {
+      "1": "Consultez les détails de l'installation de votre eSIM sur holafly.com pour le vérifier.",
+      "2": "Une fois que vous savez si elle doit être activée, allez dans Paramètres > Cellulaire > Données mobiles à nouveau > Choisissez votre eSIM.",
+      "title": "Pour que certaines cartes eSIM fonctionnent, l'itinérance des données doit être activée."
+    },
+    "ifYouNeedToEditSettings": {
+      "1": "La modification de votre APN vous permet d'accéder aux données cellulaires.",
+      "2": "Allez sur Holafly.com > Mes eSIMs > choisissez l'eSIM que vous installez > Cliquez sur n'importe quelle option d'installation pour voir les détails de l'APN.",
+      "title": "Vérifiez si vous devez modifier les paramètres APN de votre eSIM."
+    },
+    "importantNotes": {
+      "1": "Pour installer une carte eSIM, assurez-vous d'avoir un appareil compatible avec la carte eSIM et débloqué du réseau.",
+      "2": "Pour une installation réussie, vous DEVEZ disposer d'une connexion Wi-Fi stable lors de l'activation d'une eSIM.",
+      "3": "L'installation de votre eSIM avant votre voyage n'affectera pas son utilisation de données et sa validité, sauf exceptions (voir liste à la fin). Votre carte eSIM ne sera activée qu'à votre arrivée à destination, et sa validité commencera dès que vous serez connecté à l'opérateur local. Si l'eSIM couvre plus d'un pays, elle sera activée dans n'importe lequel des pays couverts (eSIMs qui s'activent au moment de l'installation : Ubigi et Dtac)",
+      "title": "Remarques importantes:"
+    },
+    "installBeforeYourTrip": "Installez-là avant votre voyage",
+    "installESIMViaQR": {
+      "1": "Scannez le code QR ou saisissez manuellement vos données eSIM.",
+      "2": "Vous pouvez trouver les détails de votre eSIM sur: <br/> fr.holafly.com > Mes eSIMs > Choisissez l'eSIM que vous voulez installer > choisissez votre option d'installation ",
+      "title": "Installez l'eSIM via le code QR ou l'installation manuelle"
+    },
+    "installationIsDone": {
+      "1": "Vous pouvez désactiver votre eSIM pour le moment. Vous la réactiverez lorsque vous serez sur le point de prendre votre vol ou lorsque vous atterrirez. Voir les instructions supplémentaires ci-dessous. Votre carte eSIM sera activée dès que votre téléphone sera connecté au réseau de votre destination.",
+      "title": "<icon /> L'installation est terminée"
+    },
+    "labelYourESIM": {
+      "1": "Après avoir ajouté votre eSIM, vous pouvez choisir de l'étiqueter pour vous aider à l'identifier (Holafly - Destination)",
+      "title": "Étiquettez votre eSIM"
+    },
+    "optionOne": {
+      "1": "Rendez-vous sur la page Mes eSIMs pour trouver votre code QR via l'application ou le site Web",
+      "2": "Allez dans les paramètres de votre appareil",
+      "3": "Cliquez sur Réseau et Internet",
+      "4": "Cliquez sur l'icône Ajouter à côté de Réseau mobile",
+      "5": "Cliquez sur Suivant à la question \"Vous n'avez pas de carte SIM?\"",
+      "6": "Vous pouvez maintenant scanner votre code QR",
+      "7": "Si besoin est, allez dans Réseau et Internet et appuyez sur Réseau mobile pour définir les préférences réseau correctes répertoriées dans les informations supplémentaires qui se trouvent en bas à droite de la page du forfait de données sélectionné.",
+      "8": "Activez l'eSIM sous Réseau mobile",
+      "9": "Activez les données mobiles",
+      "10": "Activez l'itinérance des données (veuillez désactiver votre ligne principale pour éviter les frais d'itinérance de votre opérateur à l'étranger)",
+      "11": "Configurez un APN (nom du point d'accès) sur votre appareil si nécessaire. Si les paramètres APN sont requis pour votre carte eSIM, vous trouverez les détails de l'APN dans les détails de l'installation de la carte eSIM",
+      "subTitle": "Pour scanner le code QR et configurer votre eSIM, veuillez suivre les étapes suivantes :",
+      "title": "Option 1 - En scannant le code QR de l'eSIM"
+    },
+    "optionTwo": {
+      "1": "Rendez-vous sur la page Mes eSIMs pour trouver les détails de votre manuel d'installation via l'application ou le site Web",
+      "2": "Allez dans les paramètres de votre appareil",
+      "3": "Cliquez sur Réseau et Internet",
+      "4": "Cliquez sur l'icône Ajouter à côté de Réseau mobile",
+      "5": "Cliquez sur Suivant à la question \"Vous n'avez pas de carte SIM?\"",
+      "6": "Onglet Entrer le code manuellement. Il vous sera demandé d'entrer :",
+      "7": "SM-DP+ Adresse",
+      "8": "Code d'activation",
+      "9": "Code de confirmation (si disponible)",
+      "10": "Activez votre eSIM sous Réseau mobile",
+      "11": "Activez les données mobiles",
+      "12": "Activez l'itinérance des données (veuillez désactiver votre ligne principale pour éviter les frais d'itinérance de votre opérateur à l'étranger)",
+      "13": "Configurez un APN (nom du point d'accès) sur votre appareil si nécessaire. Si les paramètres APN sont requis pour votre carte eSIM, vous trouverez les détails de l'APN dans les détails de l'installation de la carte eSIM",
+      "subTitle": "Si vous rencontrez des problèmes pour scanner le code QR ou si vous ne parvenez pas à le scanner, vous pouvez entrer les détails eSIM manuellement. Veuillez suivre les étapes suivantes :",
+      "title": "Option 2 - En ajoutant l'eSIM manuellement"
+    },
+    "setMobileDataDefaultLine": {
+      "1": "Choisissez votre plan de données eSIM ici car nous en aurons besoin pour vérifier les paramètres APN à l'étape suivante.",
+      "2": "Important: Désactivez l'option \"Autoriser la permutation des données mobiles\" pour éviter les factures d'itinérance élevées sur votre plan de données principal.",
+      "title": "Définissez votre ligne par défaut pour les données mobiles"
+    },
+    "setPrimaryDefaultLine": {
+      "1": "Définissez votre plan \"principal\" comme ligne par défaut pour continuer à utiliser votre numéro pour appeler et envoyer des messages à des personnes qui ne figurent pas dans vos contacts, puis appuyez sur \"Continuer\".",
+      "title": "Définir votre ligne primaire par défaut"
+    },
+    "stepByStep": "Processus d'installation étape par étape",
+    "theFollowingGuide": "<icon /> Le guide suivant peut varier en fonction de l'appareil Android",
+    "thereAreTwoWays": "Il y a 2 façons d'ajouter une eSIM à votre appareil (veuillez noter que ces étapes peuvent différer selon votre appareil) :",
+    "title": "Instructions d'installation",
+    "turnOnYourESIM": {
+      "1": "Allez dans Paramètres > Données cellulaires > choisissez eSIM > Activez cette ligne",
+      "2": "Assurez-vous d'utiliser votre eSIM comme ligne principale lorsque vous voyagez.",
+      "3": "Allez dans Réglages > Données cellulaires > Primaire > Choisissez l'eSIM active.",
+      "4": "Note importante : Veuillez désactiver l'itinérance des données sur votre plan principal pour éviter les frais d'itinérance inutiles.",
+      "title": "Activez votre eSIM"
+    },
+    "updateYourApnSettings": {
+      "1": "Allez dans Paramètres > Données mobiles > choisissez votre plan eSIM > Réseau de données mobiles. Modifiez-le en fonction des paramètres APN de votre eSIM. Les autres champs APN sont facultatifs.",
+      "title": "Mettez à jour vos paramètres APN, si nécessaire"
+    },
+    "videoButton": "Consultez les instructions vidéo",
+    "YouAccessToInternet": "Vous disposez d'un accès à Internet (Wifi ou données) pour installer la carte eSIM"
+  },
+  "locale": "fr",
+  "main": {
+    "card": {
+      "activationDateBtn": "Définir la date d'activation",
+      "esim": "eSIM",
+      "kycBtn": "Démarrer le processus d'identification",
+      "sim": "SIM"
+    },
+    "data": "Données",
+    "unlimited": "données illimitées",
+    "totalDays": "{{days}} des jours",
+    "description": "Vous trouverez ici toutes les eSIM que vous possédez, et vous pourrez les gérer à partir de ce portail",
+    "details": "Détails",
+    "order": "Commandes",
+    "state": "État",
+    "tabs": {
+      "1": "Actuel",
+      "2": "En attente d'activation",
+      "3": "Expirées"
+    },
+    "top-up": "Ajouter plus de données",
+    "welcome": "Re-bonjour !",
+    "cardPending": {
+      "title": "Cette carte eSIM n’est pas encore active",
+      "desc": "Vous devez activer votre carte eSIM avant de pouvoir l’utiliser. Cela déclenchera l’utilisation de vos données et commencera le décompte du nombre de jours restants."
+    },
+    "cardExpired": {
+      "title": "Cette eSIM a maintenant expiré"
+    },
+    "btnDetails": "Voir les détails",
+    "btnAddDataPlan": "Ajouter un forfait de données"
+  },
+  "qrModal": {
+    "firstSection": {
+      "title": "Scannez le QR code pour installer votre eSIM",
+      "body": "Vous devez disposer du code QR sur un autre écran ou appareil afin de pouvoir le scanner avec l’appareil photo de votre téléphone.",
+      "ctaIOS": "Consulter les instructions pour iOS",
+      "ctaAndroid": "Consulter les instructions pour Android"
+    },
+    "secondSection": {
+      "title": "Nous sommes là pour vous!",
+      "body": "Si vous avez besoin d’aide, n’hésitez pas à <link1>nous contacter</link1> ou à consulter nos vidéos d’installation pour iOS ou Androïd",
+      "ctaIOS": "iOS",
+      "ctaAndroid": "Android"
+    },
+    "thirdSection": {
+      "ctaBack": "Retour",
+      "helpCenter": ""
+    },
+    "linkFaq": "https://api.whatsapp.com/message/26QNKY6DJF6PI1?autoload=1&app_absent=0",
+    "androidSteps": {},
+    "information": {},
+    "installSteps": {},
+    "iosSteps": {},
+    "toAccessData": {},
+    "toActivate": {},
+    "toTopUp": {}
+  },
+  "installationGuide": {
+    "iOS": {
+      "videoInstructions": {
+        "title": "iOS - Instructions vidéo",
+        "link": "https://www.youtube.com/watch?v=Ec0dtvZdER0"
+      },
+      "textGuide": "http://help.holafly.com/fr/articles/6155255-guide-d-installation-et-d-activation-esim-pour-votre-iphone"
+    },
+    "android": {
+      "videoInstructions": {
+        "title": "Android - Instructions vidéo",
+        "link": "https://www.youtube.com/watch?v=pvSIsZWzw1Y"
+      },
+      "textGuide": "http://help.holafly.com/fr/articles/6354485-guide-pratique-pour-l-installation-et-l-activation-de-votre-esim-sur-votre-smartphone"
+    }
+  },
+  "calls": {
+    "complement_bundleText": "avec appels",
+    "minutes": "min",
+    "call_outgoing": "Sortants",
+    "call_incoming": "Entrants"
+  },
+  "account": {
+    "formProfile": {
+      "name": "Prénom",
+      "lastName": "Nom",
+      "email": "E-mail",
+      "country": "Pays",
+      "phone": "Numéro de téléphone"
+    },
+    "btnLogout": "Se déconnecter",
+    "UnsavedChangesModal": {
+      "btnCancel": "Annuler",
+      "btnSaveChanges": "Enregistrer les modifications",
+      "title": "Certaines modifications n'ont pas été enregistrées",
+      "description": "Souhaitez-vous enregistrer les modifications avant de revenir en arrière ?"
+    },
+    "LogoutConfirmationModal": {
+      "title": "Êtes-vous sûr(e) de vouloir vous déconnecter ?",
+      "btnCancel": "Annuler",
+      "btnLogout": "Se déconnecter"
+    },
+    "alerts": {
+      "alertSuccessSaveChanges": "Vos informations ont été mises à jour.",
+      "alertErrorFailedNet": "Veuillez vérifier votre connexion internet et réessayer."
+    },
+    "btns": {
+      "btnNotSave": "Ne pas enregistrer",
+      "btnSaveChanges": "Enregistrer les modifications"
+    }
+  },
+  "customerV2": {
+    "buttons": {
+      "buttonViewDetailsAndInstall": "Voir les détails et installer",
+      "buttonBackToDetail": "Retour à mes eSIMs",
+      "buttonBuyPackage": "Souscrire à un pack"
+    },
+    "header": {
+      "nav": {
+        "item1": "Mes cartes eSIM",
+        "item2": "Guides",
+        "item3": "Aide"
+      },
+      "buttonDownload": "Téléchargez l’application",
+      "menu": {
+        "item1": "Mon compte",
+        "item2": "Se déconnecter",
+        "item3": "Tableau de parrainage",
+        "item4": "Purchase receipts"
+      },
+      "chip": "Nouveau"
+    },
+    "banners": {
+      "bannerHome": {
+        "title": "Besoin d’aide ?",
+        "cardsBanner": {
+          "cardOne": {
+            "text": "Apprenez à installer votre carte eSIM (avant votre voyage)"
+          },
+          "cardTwo": {
+            "text": "Activez votre carte eSIM (à votre arrivée à destination)"
+          },
+          "cardThree": {
+            "text": "Découvrez tout ce qu’il faut savoir sur votre carte eSIM"
+          },
+          "cardFour": {}
+        }
+      },
+      "bannerHeaderTitle": "Mon Centre Holafly",
+      "bannerHeaderSubtitle": "L'endroit où gérer vos cartes eSIM"
+    },
+    "sidebar": {
+      "bannerText": "Téléchargez l'application pour une meilleure expérience et pour pouvoir gérer vos cartes eSIM"
+    },
+    "home": {
+      "tabs": {
+        "tab1": "En cours",
+        "tab2": "Expirée(s)"
+      },
+      "buttons": {
+        "buttonBuyText": "Acheter une nouvelle carte eSIM",
+        "buttonBuyAnotherEsim": "Acheter une autre carte eSIM",
+        "buttonInstallAndActivate": "Installezr et activer",
+        "buttonViewDetails": "Consulter les informations",
+        "buttonAddMoreData": "Ajouter plus de données"
+      },
+      "sectionCurrent": {
+        "default": {
+          "title": "Vous n'avez aucune carte eSIM",
+          "subtitle": "Vous pouvez consulter et gérer les cartes eSIM que vous achetez ici."
+        }
+      },
+      "sectionExpired": {
+        "title": "Il n'y a pas de cartes eSIM expirées",
+        "subtitle": "Lorsque vos cartes eSIM expirent, elles sont conservées dans cet historique."
+      },
+      "sectionBuyNewEsim": {
+        "title": "Voulez-vous acheter une nouvelle carte eSIM ?"
+      }
+    },
+    "details": {
+      "title": "Informations sur l'eSIM",
+      "pending": {
+        "textInstallBeforeYourTrip": "Installez-la avant votre voyage",
+        "alerts": {
+          "one": "Installez votre carte avant votre voyage et activez-la seulement lors de votre arrivée à destination. Vous commencerez alors à voir votre consommation."
+        },
+        "banners": {
+          "bannerConnection": "N'oubliez pas que vous devez disposer d'une connexion Internet pour la configuration"
+        },
+        "buttons": {
+          "buttonInstallationGuides": "Consultez les guides d'installation",
+          "buttonActivationGuides": "Consultez les guides d'activation"
+        },
+        "sectionInstructions": {
+          "title": "Que devez-vous faire ? Suivez les étapes suivantes pour configurer votre eSIM.",
+          "descriptionInstructions": "Vous pouvez l'installer en scannant le code QR que vous avez reçu dans votre e-mail au moment de l'achat, ou vous pouvez utiliser les codes d'installation que vous trouverez ci-dessous et suivre les étapes qui apparaissent dans la section des instructions.",
+          "installationCode": {
+            "title": "Codes d'installation",
+            "cards": {
+              "titleSMDPAdresse": "Adresse SM-DP+",
+              "titleActivationCode": "Code d’activation"
+            }
+          },
+          "activationCode": {
+            "title": "Scannez le code QR pour installer votre eSIM"
+          }
+        },
+        "sectionActivateDestination": {
+          "title": "2. Activez-la à votre arrivée",
+          "description": "Si vous l'activez avant, la consommation de vos données commencera et Holafly n'en sera pas responsable."
+        }
+      },
+      "active": {
+        "textStartDate": "Activé le",
+        "textEndDate": "Expire le",
+        "textComsuption": "Vous avez consommé",
+        "textComsuptionDays": "de {{days}} jours",
+        "textComsuptionGbs": "de {{gb}}",
+        "textUnlimitedData": "Données illimitées",
+        "textUnlimitedDataCalls": "Données illimitées avec appels",
+        "textPlans": "Vos forfaits",
+        "textYourPhone": "Votre numéro de téléphone",
+        "textAddMoreData": "Ajouter plus de données",
+        "buttons": {
+          "buttonShowLessPlans": "Afficher moins de forfaits",
+          "buttonShowMorePlans": "Afficher plus de forfaits",
+          "buttonShowMore": "Afficher plus",
+          "buttonShowLess": "Afficher moins"
+        },
+        "banners": {
+          "bannerAddMoreData": "Vous pouvez recharger si vous avez besoin de plus de données"
+        },
+        "tooltips": {
+          "one": "Vous ne pouvez pas ajouter plus de données car un forfait est en cours de traitement",
+          "two": "Vous pouvez voir ici les packs de données que vous avez achetés pour continuer à avoir Internet sur votre eSIM."
+        },
+        "badgets": {
+          "current": "En cours",
+          "expired": "Expirée(s)",
+          "next": "Suivant"
+        },
+        "calls": {
+          "complement_bundleText": "avec appels",
+          "minutes": "min",
+          "outgoing": "Sortants",
+          "incoming": "Entrants"
+        }
+      },
+      "generalInformation": {
+        "title": "Informations générales",
+        "dropdowm": {
+          "first": {
+            "title": "Informations sur l'achat",
+            "description": "Si vous contactez le service client, veuillez fournir les informations suivantes si elles vous sont demandées",
+            "cards": {
+              "one": {
+                "title": "Numéro de commande"
+              },
+              "two": {
+                "title": "ICCID"
+              }
+            }
+          },
+          "second": {
+            "title": "À propos de la carte eSIM",
+            "list": {
+              "Installation": {
+                "title": "Installation",
+                "description": "Pour effectuer une installation correcte, il suffit de scanner le code QR ou de saisir les codes d'installation manuellement dans les paramètres du téléphone portable, et de suivre les instructions jusqu'au bout."
+              },
+              "Activation": {
+                "title": "Activation",
+                "description": "Désactivez les données en itinérance afin qu'elles ne s'activent pas avant d'arriver à destination. L'activation sera effective lorsque vous activerez l'itinérance des données dans les paramètres de votre téléphone portable."
+              },
+              "TopUp": {
+                "title": "Recharge",
+                "description": "Il ne sera possible de recharger que lorsque la carte eSIM est active et la recharge sera effectuée le jour suivant l'expiration du premier forfait souscrit."
+              },
+              "PlanExpiration": {
+                "title": "Expiration du forfait",
+                "description": "Une fois que vous avez activé les données en itinérance, le décompte des jours de votre forfait commence. Nous vous recommandons de n'activer la carte eSIM qu'à votre destination."
+              },
+              "Refunds": {
+                "title": "Remboursement",
+                "description": "Vous disposez d'un délai de trente (30) jours après l'achat pour demander un remboursement. Le délai de réponse à ces demandes peut aller de trois (3) à cinq (5) jours."
+              },
+              "Hotspot": {
+                "title": "Hotspot",
+                "description": "La disponibilité du partage de données peut varier en fonction de la destination et du type de forfait auquel vous avez souscrit."
+              },
+              "InternationalDataPolicy": {
+                "title": "Politique internationale de données",
+                "description": "La vitesse et la consommation quotidienne de données sont soumises à la politique internationale de données en dehors de Holafly."
+              }
+            }
+          },
+          "three": {
+            "title": "À propos de l'ajout de plus de données",
+            "list": {
+              "opt1": {
+                "title": "Généralités",
+                "list": {
+                  "1": "- Connexion stable et à haut débit en République démocratique du Congo.",
+                  "2": "- Recevez votre code QR et surfez instantanément sur Internet.",
+                  "3": "- Facile à configurer et à activer.",
+                  "4": "- Conservez votre numéro WhatsApp sur votre téléphone portable.",
+                  "5": "- Connectez-vous au meilleur réseau en République démocratique du Congo.",
+                  "6": "- Oubliez l'itinérance ou la recherche de réseaux WiFi publics."
+                }
+              },
+              "opt2": {
+                "title": "Description",
+                "list": {
+                  "1": "Connectez-vous à Internet en République démocratique du Congo avec une carte eSIM prépayée avec données. Restez en contact avec votre famille et vos amis grâce à vos applications préférées telles que WhatsApp, iMessage ou Skype. Oubliez l'itinérance et commencez à économiser sur votre voyage.",
+                  "2": "C'est facile à activer et à utiliser. Après votre achat, vous recevrez un code QR par e-mail. Scannez-le pour installer la carte eSIM pour la République démocratique du Congo et commencez à utiliser le service. Pas de paperasserie ni d'attente."
+                }
+              },
+              "opt3": {
+                "list": {},
+                "opt3": {
+                  "title": "Caractéristiques techniques",
+                  "list": {
+                    "1": "- Vitesse : 3G",
+                    "2": "- Réseaux : Airtel",
+                    "3": "- Tethering / Hotspot : Oui",
+                    "4": "- Packs de données : 6 GB",
+                    "5": "- Nombre de jours d'utilisation : 15",
+                    "6": "- Numéro de téléphone : Non",
+                    "7": "- Type de forfait : Prépayé",
+                    "8": "- SMS : Non",
+                    "9": "- APN : CMHK",
+                    "10": "- Appels analogiques : Non, uniquement par le biais d'applications (VOIP).",
+                    "11": "- Activation : Automatique, activé une fois connecté à un réseau cellulaire.",
+                    "12": "- Compatibilité : tous les smartphones dotés de la technologie eSIM. Le fonctionnement sur les montres intelligentes et les tablettes n'est pas garanti.",
+                    "13": "- Expédition : par e-mail.",
+                    "14": "- Délai de livraison : immédiat, après l'achat.",
+                    "15": "- Installation : scanner un code QR.",
+                    "16": "- Pièce d'identité requise : Non",
+                    "17": "- Technologie : eSIM",
+                    "18": "- Couverture : Vous bénéficierez d'une bonne couverture à Kinshasa, Lubumbashi, Kananga et dans d'autres villes et destinations touristiques de la République démocratique du Congo.",
+                    "19": "- Conçu pour : le tourisme, les routards, les vacances, les nomades numériques et les entreprises."
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "modalTopUpHome": {
+      "title": "Ajouter plus de données",
+      "description": "Vous pouvez voir ici les packs de données auxquels vous avez souscrits pour continuer à avoir accès à Internet sur votre eSIM"
+    },
+    "modalWarningTopUpHome": {
+      "title": "Oups ! Désolé aventurier",
+      "description": "Vous ne pouvez pas ajouter plus de données parce qu'un forfait est actuellement en cours de traitement. Vous devez l'épuiser pour pouvoir ajouter à nouveau des données.",
+      "buttonMyPlan": "Consulter mon forfait"
+    },
+    "paymentSuccesPage": {
+      "title": "Données ajoutées avec succès !",
+      "description": "Rester connecté(e) plus longtemps.",
+      "textRemember": "Se souvenir",
+      "list": {
+        "item1": "S'active à la fin de votre précédent forfait",
+        "item2": "Vous pourrez effectuer d'autres recharges lorsque vous n'en aurez pas d'autres en cours de traitement.",
+        "item3": "Vous n'avez pas besoin d'installer votre eSIM ou d'activer le forfait",
+        "item4": "Téléchargez notre application pour gérer vos eSIMs"
+      },
+      "buttonSeeMyEsim": "Consulter ma carte eSIM"
+    },
+    "paymentErrorPage": {
+      "title": "Un problème est survenu",
+      "description": "Nous n'avons pas pu traiter votre commande",
+      "textRemember": "Vous pouvez",
+      "list": {
+        "item1": "Réessayer avec une nouvelle carte.",
+        "item2": "Vérifier les fonds sur votre carte.",
+        "item3": "Modifier votre mode de paiement."
+      },
+      "buttonGo": "J’ai compris !"
+    },
+    "texts": {
+      "copy": "copier",
+      "titleShowPaginationMain": "{{number}} eSIM"
+    },
+    "referrals": {
+      "banners": {
+        "home": {
+          "title": "Vous avez <span>{{referralPoint}} Holapoint</span>",
+          "desc": "Gagnez 5 Holapoints pour chaque ami que vous recommandez et qui effectue un achat !",
+          "textButton": "Voir mon tableau de parrainage"
+        }
+      },
+      "modals": {
+        "friendDiscount": {
+          "title": "Parrainez un ami et gagnez 5 Holapoints. Votre ami(e) bénéficiera également d'une réduction de 5 % sur ses achats.",
+          "subtitle": "Comment le programme de parrainage fonctionne-t-il ?",
+          "list": {
+            "list_1": {
+              "paragraph_1": "Partagez le lien avec vos amis",
+              "paragraph_2": "En cliquant dessus, ils recevront un code de réduction"
+            },
+            "list_2": {
+              "paragraph_1": "Ils devront passer par le processus habituel d'achat d'une carte eSIM et, au moment de payer, ils devront saisir le code de réduction qu'ils viennent de recevoir",
+              "paragraph_2": "C'est à ce moment-là que vous gagnerez un nombre prédéfini de Holapoints !"
+            },
+            "list_3": {
+              "paragraph_1": "Vous pourrez échanger ces Holapoints contre des codes de réduction valables pour votre prochain achat de carte eSIM",
+              "paragraph_2": "1 Holapoint = 1 euro"
+            },
+            "list_4": {
+              "paragraph_1": "Si vous collectez suffisamment de Holapoints, vous pourrez les échanger pour la somme entière d'une carte eSIM !"
+            }
+          },
+          "textButton": "J'ai compris !"
+        }
+      },
+      "discountCode": {
+        "title": "Mes codes de réduction",
+        "RedeemHolaPoints": {
+          "title": "{{referralPoint}} Holapoints",
+          "desc": "Saisissez les Holapoints que vous souhaitez échanger",
+          "spam": "1 Holapoints = <b>$1 EUR</b>",
+          "textTotalDiscount": "Réduction totale :",
+          "textButton": "Échanger des Holapoints",
+          "textLink": "Comment l'utiliser ?",
+          "textImgDiscount": "Vous n'avez pas encore utilisé de code de réduction"
+        },
+        "discountHistory": {
+          "title": "Vous avez économisé {{currency}} EUR sur vos cartes eSIM",
+          "listTitleTable": {
+            "col1": {
+              "title": "Date d'échange"
+            },
+            "col2": {
+              "title": "Réduction"
+            },
+            "col3": {
+              "title": "Code de réduction"
+            },
+            "dateNow": "Maintenant",
+            "dateDay": "Il y a {{day}}} jour",
+            "dateDays": "Il y a {{days}} jours"
+          }
+        },
+        "listCode": {
+          "titleWithoutListCode": "Vous n'avez pas encore utilisé de code de réduction"
+        }
+      },
+      "holaPoints": {
+        "title": "Vous avez 0 Holapoint",
+        "description": "Gagnez des Holapoints en parrainant des amis et recevez des réductions exclusives !",
+        "buttonText": "Voir mon tableau de parrainage"
+      },
+      "shareCode": {
+        "title": "Tableau de parrainage",
+        "subtitle": "Parrainez des amis, gagnez des Holapoints et recevez des réductions sur votre prochain achat",
+        "textLink": "Comment le programme de parrainage fonctionne-t-il ?"
+      },
+      "alerts": {
+        "pointsRedeemed": "Holapoints échangés !"
+      }
+    },
+    "invoice": {
+      "main": {
+        "title": "Purchase receipts",
+        "cards": {
+          "title": "Order number",
+          "textDate": "Date",
+          "textPrice": "Price"
+        },
+        "dropdown": {
+          "title": "Sort by",
+          "optOne": "Most recent",
+          "optTwo": "Most old"
+        },
+        "pagination": {
+          "title": "Page"
+        },
+        "listReceipts": {
+          "title": "Show",
+          "textSelected": "{{number}} Receipts"
+        }
+      },
+      "details": {
+        "textGoBack": "Back to purchase receipts",
+        "orderDetailBanner": {
+          "title": "Order {{order}}",
+          "textFieldTotal": "Total amount:",
+          "textFielDatePurchase": "Date of purchase:"
+        },
+        "invoiceDetailCard": {
+          "textFieldUnitPrice": "Unit price",
+          "textFieldDiscount": "Discount",
+          "textFieldSubtotal": "Subtotal",
+          "textFieldTaxes": "Taxes"
+        },
+        "personalInfoCard": {
+          "title": "Personal information",
+          "subtitle": "Here your personal data",
+          "textFieldName": "Name",
+          "textFieldEmail": "Email",
+          "textFieldPhone": "Phone"
+        },
+        "textButtonReceipt": "Download receipt",
+        "supportInvoice": {
+          "title": " Do you need an invoice?",
+          "description": "Please complete this form to request one from our Support team"
+        }
+      },
+      "alerts": {
+        "alertConnectionNetwork": {
+          "title": "Sorry",
+          "description": "We couldn’t show notifications due to an internet connection issue",
+          "textButton": "Try again"
+        },
+        "alertConnectionInternalError": {
+          "title": "Sorry",
+          "description": "We couldn't show notifications due to an internal error",
+          "textButton": "Try again"
+        },
+        "alertPurchaseNoReceipts": {
+          "title": "You don’t have any receipts just yet!",
+          "description": "Here’s a cup of coffee ☕️",
+          "textButton": "Back to my eSIMs"
+        }
+      }
+    }
+  },
+  "activacion": {
+    "datePicker": {}
+  },
+  "activationDateBtn": "Définir la date d'activation"
+}

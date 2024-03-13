@@ -1,6 +1,3 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
-
 name: Build and Deploy Test Automatization
 
 on:
@@ -11,8 +8,7 @@ on:
     branches: ["main"]
 
 jobs:
-
-  install: 
+  run_workflow_vercel:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -27,36 +23,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-
-  eject-translation:
-    runs-on: ubuntu-latest
-    needs:
-      - "install"
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        
       - name: Run generate file translations
         run: npm run generate-json
-        
 
-  build:
-    runs-on: ubuntu-latest
-    needs:
-      - "install"
-      - "eject-translation"
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        
       - name: Build
         run: npm run build
-  
+
       - name: Deploy to Vercel Action
         uses: BetaHuhn/deploy-to-vercel-action@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GH_PAT_I18N }}
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN_I18N }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }} # Asegúrate de configurar la variable de entornos en los secretos de tu repositorio en GitHub
-
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
