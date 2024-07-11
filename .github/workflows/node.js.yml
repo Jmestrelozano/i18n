@@ -26,11 +26,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Save node modules
-        if: success()
-        run: tar -czf node_modules.tar.gz node_modules
-        continue-on-error: true
-
   translation:
     runs-on: ubuntu-latest
     needs: install
@@ -38,11 +33,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Restore node modules
-        if: success()
-        run: tar -xzf ../install/node_modules.tar.gz
-        continue-on-error: true
-      
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
       - name: Run generate file translations
         run: npm run generate-json
 
@@ -54,11 +53,15 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      
-      - name: Restore node modules
-        if: success()
-        run: tar -xzf ../install/node_modules.tar.gz
-        continue-on-error: true
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
 
       - name: build
         run: npm run build
