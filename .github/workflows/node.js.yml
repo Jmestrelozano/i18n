@@ -33,8 +33,11 @@ jobs:
 
   translation:
     runs-on: ubuntu-latest
-    needs: install
+    needs: 
+      - install
     steps:
+    - uses: actions/checkout@v4
+    
     - name: Run generate file translations
       run: npm run generate-json
 
