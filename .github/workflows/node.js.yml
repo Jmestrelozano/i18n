@@ -26,9 +26,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Verify node modules
-        run: ls -la node_modules
-
       - name: Save node modules
         if: success()
         run: tar -czf node_modules.tar.gz node_modules
@@ -46,9 +43,6 @@ jobs:
         run: tar -xzf ../install/node_modules.tar.gz
         continue-on-error: true
       
-      - name: Verify node modules
-        run: ls -la node_modules
-
       - name: Run generate file translations
         run: npm run generate-json
 
@@ -65,9 +59,6 @@ jobs:
         if: success()
         run: tar -xzf ../install/node_modules.tar.gz
         continue-on-error: true
-
-      - name: Verify node modules
-        run: ls -la node_modules
 
       - name: build
         run: npm run build
