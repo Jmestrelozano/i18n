@@ -43,6 +43,14 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
+      - name: Cache translations
+        uses: actions/cache@v3
+        with:
+          path: ./src/translations
+          key: ${{ runner.os }}-build-${{ hashFiles('**/translations') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
       - name: Run generate file translations
         run: npm run generate-json
 
@@ -60,6 +68,15 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Cache translations
+        uses: actions/cache@v3
+        with:
+          path: ./src/translations
+          key: ${{ runner.os }}-build-${{ hashFiles('**/translations') }}
           restore-keys: |
             ${{ runner.os }}-build-
             ${{ runner.os }}-
