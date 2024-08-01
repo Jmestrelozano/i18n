@@ -1,6 +1,7 @@
 name: CI with cache
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
