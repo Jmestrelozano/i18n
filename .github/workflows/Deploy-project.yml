@@ -17,11 +17,13 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: build-artifact
+          path: build/
 
       - name: Download Translations Artifact
         uses: actions/download-artifact@v3
         with:
           name: translations-artifact
+          path: ./src/translations/
 
       - name: Deploy to Vercel
         uses: BetaHuhn/deploy-to-vercel-action@v1
