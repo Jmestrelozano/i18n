@@ -17,13 +17,13 @@ jobs:
       - name: Download Build Artifact
         uses: actions/download-artifact@v4.1.8
         with:
-          name: build-artifact
+          name: Build
           path: build
 
       - name: Download Translations Artifact
         uses: actions/download-artifact@v4.1.8
         with:
-          name: translations-artifact
+          name: Translations
           path: ./src/translations/
 
       - name: Deploy to Vercel
