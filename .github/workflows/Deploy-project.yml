@@ -5,9 +5,6 @@ on:
     workflows: ["Build and Generate Translations"]  # Aquí el nombre exacto del workflow de construcción
     types:
       - completed
-  workflow_dispatch:
-  push:
-    branches: ["main"]
 
 jobs:
   deploy-project:
