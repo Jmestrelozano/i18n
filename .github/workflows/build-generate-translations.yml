@@ -1,0 +1,51 @@
+name: Build and Generate Translations
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+
+jobs:
+  build-and-translate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Cache translations
+        uses: actions/cache@v3
+        with:
+          path: ./src/translations
+          key: ${{ runner.os }}-build-${{ hashFiles('**/translations') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Run generate file translations
+        run: npm run generate-json
+
+      - name: Build Project
+        run: npm run build
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifact
+          path: build/
+
+      - name: Upload Translations Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: translations-artifact
+          path: ./src/translations/
