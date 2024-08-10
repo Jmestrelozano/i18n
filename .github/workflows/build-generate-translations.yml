@@ -41,11 +41,11 @@ jobs:
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4.3.6
         with:
-          name: build-artifact
+          name: Build
           path: dist/
 
       - name: Upload Translations Artifact
         uses: actions/upload-artifact@v4.3.6
         with:
-          name: translations-artifact
+          name: Translations
           path: ./src/translations/
