@@ -14,13 +14,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Download Build Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.8
         with:
           name: build-artifact
           path: build/
 
       - name: Download Translations Artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4.1.8
         with:
           name: translations-artifact
           path: ./src/translations/
