@@ -17,7 +17,7 @@ jobs:
         uses: actions/download-artifact@v4.1.8
         with:
           name: build-artifact
-          path: build/
+          path: ./dist/
 
       - name: Download Translations Artifact
         uses: actions/download-artifact@v4.1.8
