@@ -54,7 +54,7 @@ jobs:
 
   test-and-coverage:
     runs-on: ubuntu-latest
-    needs: [cache-and-install, generate-translations]
+    needs: [cache-and-install]
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
