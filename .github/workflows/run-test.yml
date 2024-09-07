@@ -1,13 +1,13 @@
-name: Deploy project
+name: Run test
 
 on:
   workflow_run:
-    workflows: ["Run test"]  # Aquí el nombre exacto del workflow de construcción
+    workflows: ["Build and Generate Translations"]  # Aquí el nombre exacto del workflow de construcción
     types:
       - completed
 
 jobs:
-  deploy-project:
+  building:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,11 +27,19 @@ jobs:
           name: Translations
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
+  
+  run-test:
+    runs-on: ubuntu-latest
+    needs: building
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Deploy to Vercel
-        uses: BetaHuhn/deploy-to-vercel-action@v1
+      - name: run unit test
+        run: npm run test
+
+      - name: "Checking coverage"
+        uses: VeryGoodOpenSource/very_good_coverage@v2
         with:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT_I18N }}
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN_I18N }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          path: "./coverage/lcov.info"
+          min_coverage: 80
