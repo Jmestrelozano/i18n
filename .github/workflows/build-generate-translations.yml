@@ -56,6 +56,15 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Cache translations
+        uses: actions/cache@v3
+        with:
+          path: ./src/translations
+          key: ${{ runner.os }}-build-${{ hashFiles('**/translations') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
       - name: Cache test
         uses: actions/cache@v3
         with:
@@ -102,15 +111,18 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+
+      - name: Cache translations
+        uses: actions/cache@v3
+        with:
+          path: ./src/translations
+          key: ${{ runner.os }}-build-${{ hashFiles('**/translations') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
     
       - name: Build Project
         run: npm run build
-
-      - name: Upload Translations Artifact
-        uses: actions/upload-artifact@v4.3.6
-        with:
-          name: Translations
-          path: ./src/translations/     
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4.3.6
