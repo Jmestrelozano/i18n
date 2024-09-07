@@ -18,6 +18,7 @@ function App() {
         </a>
       </div>
       <h1>{t("global.login.label")}</h1>
+      <h2>{t("global.locale")}</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is === {count}
