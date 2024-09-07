@@ -64,7 +64,16 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-        
+
+      - name: Create .env.test
+        run: |
+          cat <<EOF > .env.test
+          REACT_APP_API_URL=http://localhost:4500
+          EOF
+
+      - name: Display .env.test
+        run: cat .env.test
+  
       - name: Run test
         run: npm run test
 
@@ -73,6 +82,10 @@ jobs:
         with:
           path: "./coverage/lcov.info"
           min_coverage: 50
+
+      - name: Delete .env.test
+        if: success()
+        run: rm .env.test
 
   build-and-upload:
     runs-on: ubuntu-latest
