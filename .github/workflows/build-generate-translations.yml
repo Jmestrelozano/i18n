@@ -55,6 +55,15 @@ jobs:
 
       - name: Install Dependencies
         run: npm install
+
+      - name: Cache test
+        uses: actions/cache@v3
+        with:
+          path: ./__test__
+          key: ${{ runner.os }}-build-${{ hashFiles('**/test') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
         
       - name: Run test
         run: npm run test
