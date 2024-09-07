@@ -21,6 +21,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+            
       - name: Install Dependencies
         run: npm install
 
@@ -32,9 +33,19 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+            
       - name: Run generate file translations
         run: npm run generate-json
 
+      - name: Run test
+        run: npm run test
+
+      - name: "Checking coverage"
+        uses: VeryGoodOpenSource/very_good_coverage@v2
+        with:
+          path: "./coverage/lcov.info"
+          min_coverage: 50
+          
       - name: Build Project
         run: npm run build
 
