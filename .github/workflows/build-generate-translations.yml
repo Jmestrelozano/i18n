@@ -39,7 +39,7 @@ jobs:
         run: npm run build
 
       - name: Upload Dependencies
-        run:  actions/upload-artifact@v4.3.6
+        uses: actions/upload-artifact@v4.3.6
         with:
           name: Dependencies
           path: node_modules/

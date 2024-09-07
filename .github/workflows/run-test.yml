@@ -34,14 +34,10 @@ jobs:
           name: Translations
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
-  
-  run-test:
-    runs-on: ubuntu-latest
-    needs: building
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
 
+      - name: Install Dependencies
+        run: npm install
+        
       - name: run unit test
         run: npm run test
 
