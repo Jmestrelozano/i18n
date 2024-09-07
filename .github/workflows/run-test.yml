@@ -48,9 +48,29 @@ jobs:
       - name: List files for debugging
         run: ls -R
 
-      - name: Extract and move node_modules
+      - name: Check if node_modules exists
+        id: check_node_modules
         run: |
-          mv ./
+          if [ -d "./node_modules" ]; then
+            echo "node_modules already exists. Skipping copy."
+            echo "exists=true" >> $GITHUB_ENV
+          else
+            echo "exists=false" >> $GITHUB_ENV
+          fi
+
+      - name: Copy node_modules if needed
+        if: env.exists == 'false'
+        run: |
+          cp -r Dependencies/node_modules ./node_modules
+        continue-on-error: false
+
+      - name: Fail if node_modules does not exist
+        if: env.exists == 'false'
+        run: |
+          if [ ! -d "./node_modules" ]; then
+            echo "node_modules directory is missing. Please check artifact upload and download."
+            exit 1
+          fi
 
       - name: run unit test
         run: npm run test
