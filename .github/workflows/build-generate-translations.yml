@@ -100,24 +100,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        
-      - name: Cache node modules
-        uses: actions/cache@v3
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
-
-      - name: Cache translations
-        uses: actions/cache@v3
-        with:
-          path: ./src/translations
-          key: ${{ runner.os }}-build-${{ hashFiles('**/translations') }}
-          restore-keys: |
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
     
       - name: Build Project
         run: npm run build
