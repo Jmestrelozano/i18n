@@ -20,7 +20,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-            
+
       - name: Install Dependencies
         run: npm install
 
@@ -39,6 +39,7 @@ jobs:
     steps:
       - name: Run generate file translations
         run: npm run generate-json
+        working-directory: ./  # Asegúrate de estar en el directorio raíz si es necesario
 
   test-and-coverage:
     runs-on: ubuntu-latest
@@ -46,6 +47,7 @@ jobs:
     steps:
       - name: Run test
         run: npm run test
+        working-directory: ./  # Asegúrate de estar en el directorio raíz si es necesario
 
       - name: Checking coverage
         uses: VeryGoodOpenSource/very_good_coverage@v2
@@ -59,6 +61,7 @@ jobs:
     steps:
       - name: Build Project
         run: npm run build
+        working-directory: ./  # Asegúrate de estar en el directorio raíz si es necesario
 
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4.3.6
