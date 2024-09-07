@@ -38,20 +38,8 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      - name: Upload Dependencies
-        uses: actions/upload-artifact@v4.3.6
-        with:
-          name: Dependencies
-          path: node_modules/
-
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4.3.6
         with:
           name: Build
           path: dist/
-
-      - name: Upload Translations Artifact
-        uses: actions/upload-artifact@v4.3.6
-        with:
-          name: Translations
-          path: ./src/translations/
