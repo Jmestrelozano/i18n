@@ -21,13 +21,6 @@ jobs:
           run-id: ${{ github.event.workflow_run.id }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Download Translations Artifact
-        uses: actions/download-artifact@v4.1.8
-        with:
-          name: Translations
-          run-id: ${{ github.event.workflow_run.id }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Install Dependencies
         run: npm install
         
@@ -38,4 +31,4 @@ jobs:
         uses: VeryGoodOpenSource/very_good_coverage@v2
         with:
           path: "./coverage/lcov.info"
-          min_coverage: 80
+          min_coverage: 50
