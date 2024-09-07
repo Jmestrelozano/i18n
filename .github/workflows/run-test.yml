@@ -44,7 +44,7 @@ jobs:
 
       - name: Extract and move node_modules
         run: |
-          mv Dependencies/node_modules ./node_modules
+          mv Dependencies ./node_modules
 
       - name: run unit test
         run: npm run test
