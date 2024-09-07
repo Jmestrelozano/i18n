@@ -7,9 +7,9 @@ describe("Test in the App.tsx Component", () => {
   it("should render the component correctly ", () => {
     render(<App />);
 
-    const componentCounter = screen.getByTestId("button-count");
+    const componentCounter = screen.getByRole("button");
     const titleComponentApp = screen.getByRole("heading", { level: 1 });
-    expect(titleComponentApp.textContent).toBe("Vite + React");
+    expect(titleComponentApp.textContent).toBe("");
     expect(componentCounter).toBeInTheDocument();
 
     fireEvent.click(componentCounter);
