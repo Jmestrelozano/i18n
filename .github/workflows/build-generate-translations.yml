@@ -70,9 +70,6 @@ jobs:
           cat <<EOF > .env.test
           REACT_APP_API_URL=http://localhost:4500
           EOF
-
-      - name: Display .env.test
-        run: cat .env.test
   
       - name: Run test
         run: npm run test
