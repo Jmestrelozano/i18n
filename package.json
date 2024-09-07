@@ -9,7 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "generate-json": "node scripts/generatedJson.js",
-    "test": "jest --coverage",
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand --coverage",
     "test:units": "jest --passWithNoTests --silent --noStackTrace --runInBand units",
     "test:integrations": "jest --passWithNoTests --silent --noStackTrace --runInBand test/integrations"
   },
