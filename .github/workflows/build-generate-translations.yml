@@ -106,6 +106,12 @@ jobs:
       - name: Build Project
         run: npm run build
 
+      - name: Upload Translations Artifact
+        uses: actions/upload-artifact@v4.3.6
+        with:
+          name: Translations
+          path: ./src/translations/     
+
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4.3.6
         with:
