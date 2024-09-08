@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -6,6 +6,11 @@ import { t } from "i18next";
 
 function App() {
   const [count, setCount] = useState(0);
+  const [isShow, setShow] = useState(false);
+
+  useEffect(() => {
+    count > 3 && setShow(true);
+  }, [count]);
 
   return (
     <>
@@ -19,6 +24,20 @@ function App() {
       </div>
       <h1>{t("global.login.label")}</h1>
       <h2>{t("global.locale")}</h2>
+
+      {isShow && (
+        <div>
+          <p>Me llamo</p>
+
+          <button onClick={() => setCount((count) => count + 1)}>
+            count is === {count}
+          </button>
+
+          <button onClick={() => setCount((count) => count + 1)}>
+            count is === {count}
+          </button>
+        </div>
+      )}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is === {count}
